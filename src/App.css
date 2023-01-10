@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+body{
+  background-color: #084851;
+
+}
+
+.search_bar{
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.search_bar input{
+  padding: 0.3rem;
+}
+
+.search_bar button{
+  background-color: #062226;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+}
+
+.search_bar button:hover{
+  scale: 1.1;
+}
+
+.location_data_container{
+  background-color: #062226;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: start;
+  gap: 1rem;
+  margin: 1rem 2.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.location_data_container div{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.location_data_container div p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 14px;
+}
+
+.data{
+  font-size: 10px;
+}
+
+.card img{
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card{
+  margin: 1rem auto;
+  background-color: #062226;
+  border-radius: 1rem;
+  height: 530px;
+  width: 300px;
+  position: relative;
+}
+
+.character_data_container{
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card h3{
+  color: white;
+  padding: 1rem 1rem 0.5rem 1rem;
+  border-bottom: 0.5px solid #084851;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.character_data{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  padding: 0 1rem;
+  color: white;
+}
+
+.character_item{
+  color: #7E7E7E;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  padding: 0 1rem;
+}
+
+.status_container{
+  background-color: #062226;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  border-radius: 0 1rem 1rem 0;
+  max-width: 50%;
+  position: absolute;
+  top: 30px;
+}
+
+.status_circle{
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+}
+
+.status{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+}
+
+.background_green{
+  background-color: green;
+}
+
+.background_red{
+  background-color: red;
+}
+
+.background_grey{
+  background-color: grey;
+}
+
+.loading{
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+@media screen and (min-width:900px){
+
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 0 5rem;
+
+  }
+}
+
